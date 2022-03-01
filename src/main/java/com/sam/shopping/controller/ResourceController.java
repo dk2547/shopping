@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class ResourceController {
     @GetMapping
     public String getResponce(){
-        return "hello heroku";
+        return "hello heroku - 1";
     }
 }
